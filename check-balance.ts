@@ -1,5 +1,5 @@
 import { Connection, Keypair, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
-import { key } from "./keypairPublic.ts";
+import { key } from "./keypairPublic";
 
 const publicKey = new PublicKey(key);
 
