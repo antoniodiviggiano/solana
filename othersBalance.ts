@@ -1,7 +1,7 @@
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
 const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
-const addressTolySol = "GgJJRwLg9NzFQ97o1CJLGLp1KLSUMBwFc6eQNVEr4fbW1";
+const addressTolySol = "GgJJRwLg9NzFQ97o1CJLGLp1KLSUMBwFc6eQNVEr4fbW";
 
 try {
   const publicKey = new PublicKey(addressTolySol);
