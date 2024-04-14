@@ -7,8 +7,9 @@ import {
 } from "@solana/web3.js";
 import "dotenv/config"
 import { getKeypairFromEnvironment } from "@solana-developers/helpers";
+import { key } from "./keypairPublic";
 
-const suppliedToPubkey = process.argv[2] || null;
+const suppliedToPubkey = process.argv[2] || 'DW3bgvvbrENyzZu8kRrJiKS7b5dQ52faNbk8JSMjdPGb' || key;
 
 if (!suppliedToPubkey) {
     console.log(`Please provide a public key to send to`);
